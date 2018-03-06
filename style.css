@@ -1,0 +1,291 @@
+/* navbar */
+.navbar-default
+{
+	background-color: #E5761B;
+	margin-bottom: 0px;
+}
+@font-face
+{
+	font-family: 'aniron';
+	src:url('anicb.ttf') format('truetype');
+	src:url('anicm.ttf') format('truetype');
+	src:url('anirb.ttf') format('truetype');
+	src:url('anirm.ttf') format('truetype');
+}
+.container
+{
+	font-family: 'aniron', arial, serif;
+}
+.navbar-default .navbar-brand
+{
+	color:white;
+}
+.navbar-default .navbar-nav > li > a
+{
+	color: white;
+}
+.navbar-brand
+{
+	height: 100%;
+}
+
+.navbar-default .navbar-nav > li > a:hover
+{
+	border-bottom: solid 2px white;
+	color: white;
+}
+
+.navbar-nav>li >a
+{
+	border-right: solid 1px white;
+	margin-top: 5%;
+	margin-bottom: 5%;
+}
+
+
+/* carrousel */
+.vador
+{
+	width: 90%;
+	height: 100%;
+}
+@font-face
+{
+	font-family: 'partybusiness';
+	src:url('partybusiness.ttf') format('truetype');
+}
+.carousel-caption
+{
+	font-family: 'partybusiness';
+	font-size: 5em;
+	height: 40%;
+
+}
+
+
+#mycarousel
+{
+	height: 20%;
+}
+
+/* section3 */
+.section3
+{
+	background-image: url("_bg_light.png");	
+}
+.nav-pills
+{
+	text-align: center;
+	font-family: 'aniron';
+}
+.fellowswanted
+{
+	font-size: 1.5em;
+	font-family: 'aniron';
+}
+.eatthem
+{
+	font-size: 1em;
+	font-family: 'aniron';
+}
+
+.section3 >p
+{
+	text-align: center;
+}
+
+@font-face
+{
+	font-family:'tngani';
+	src: url('tngani.ttf')format('truetype');
+}
+.IJ
+{
+	font-family:'tngani';
+	color: orange;
+}
+
+.nav-pills .fellowswanted:before
+{
+	content: "ij";
+	font-family: 'tngani';
+	color:orange;
+	font-size: 1.3em;
+}
+.nav-pills .eatthem:after
+{
+	content: "ij";
+	font-family: 'tngani';
+	color:orange; 
+	font-size: 2em;
+}
+.nav-pills .dangerous:before
+{
+	content: "b";
+	font-family: 'tngani';
+	color: orange;
+	font-size: 1.4em;
+}
+.nav-pills .dangerous:after
+{
+	content: "b";
+	font-family: 'tngani';
+	color: orange;
+	font-size: 1.4em;
+}
+.dangerous, .wanted, .captured
+{
+	color: grey;
+	font-size: 1.1em;
+}
+
+.nav-pills .wanted:hover
+{
+	color: orange;
+	background: none;
+	border-bottom: solid 2px orange;
+}
+.nav-pills .dangerous:hover
+{
+	color: orange;
+	background: none;
+	border-bottom: solid 2px orange;
+}
+.nav-pills .captured:hover
+{
+	color: orange;
+	background: none;
+	border-bottom: solid 2px orange;
+}
+
+
+.caption
+{
+	
+	color: grey;
+	text-align: left;
+	font-size: 1.1em;
+}
+
+.thumbnail
+{
+	background-color: black;
+	font-family: 'partybusiness';
+}
+
+.thumbnail h3
+{
+	font-size: 2.1em;
+}
+
+#section3 .info
+{
+	/*position: absolute;
+	top: 20px;
+	left: 20px;
+	color: black;
+	border-color: #DCDCDC;
+	background-color: #DCDCDC;
+	border-radius:5px;
+	width: 80%;
+	text-align: center;
+	font-size: 2vw;
+	opacity: 0.7;*/
+}
+.mille
+{
+	color: #E55C17;
+}
+.fellowswanted:before
+{
+	content: "ij";
+	font-family: 'tngani';
+	color:orange;
+	font-size: 1.3em;
+}
+.eatthem:after
+{
+	content: "ij";
+	font-family: 'tngani';
+	color:orange;
+	font-size: 1.3em;
+}
+
+.dead
+{
+	position: absolute;
+	color: #E5761B;
+	font-size: 3vw;
+	top: 10%;
+}
+
+.nomgandalf, .nomaragorn
+{
+	position: absolute;
+	color: white;
+	top: 40%;
+	font-size: 3vw;
+}
+
+.nomgimli
+{
+position: absolute;	
+top: 40%;
+font-size: 3vw;
+color: white;
+text-decoration: line-through;
+text-decoration-color:orange;
+}
+
+
+.info
+{
+	display: flex;
+	justify-content: center;
+	text-align: center;
+}
+
+.reward
+{
+	font-size: 2.5vw;
+	background-color: #DCDCDC;
+	border-radius: 8px;
+	opacity: 0.8;
+	position: absolute;
+	top: 20%;	
+}
+.img-responsive
+{
+	opacity: 0.5;
+}
+
+.img-responsive:hover 
+{
+	opacity: 1;
+}
+
+.img-responsive.gandalf:hover ~ .info .nomgandalf, .img-responsive:hover ~ .info .nomaragorn
+{
+	top: 60%;
+	font-size: 2.5vw;	
+}
+
+.img-responsive:hover ~ .info .reward 
+{
+	
+	display: none;
+}
+
+.img-responsive:hover ~ .info .dead
+{
+	display: none;
+}
+.img-responsive:hover ~ .info .nomgimli
+{
+	top: 60%;
+	font-size: 2.5vw;	
+}
+
+
+
+
